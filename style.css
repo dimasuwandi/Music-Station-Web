@@ -1,0 +1,545 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: auto;
+    background-color: azure;
+}
+
+#wrapper {
+    width: 1400px;
+    margin-left: 90px;
+}
+
+.menu {
+    text-align: center;
+    background-color: darksalmon;
+    height: 80px;
+    width: 1200px;
+    margin-left: 90px;
+}
+
+.menu ul {
+    padding-top: 21px;
+    margin-left: 47px
+}
+
+.menu li {
+    display: inline;
+    list-style: none;
+    width: 110px;
+}
+
+.menu li a {
+    color: dodgerblue;
+    margin: 30px;
+    font-size: 25px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: indigo !important;
+}
+
+.isi {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.isi img {
+    height: 200px;
+    width: 200px;
+    filter: grayscale(70%);
+    padding: 5px;
+}
+
+.isi img:hover {
+    filter: grayscale(0%);
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.content {
+    text-align: justify;
+    margin-left: 80px;
+}
+
+.section {
+    width: 188px;
+    float: left;
+    margin: 10px;
+}
+
+.section h3 {
+    height: 20px
+}
+
+.last-section {
+    width: 188px;
+    float: left;
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.content_btm {
+    float: left;
+    width: 1012px;
+    margin-left: 10px;
+    margin-top: 30px
+}
+
+.btm_left {
+    width: 500px;
+    font-size: 20px;
+}
+
+.btm_right {
+    margin-right: 100px;
+    float: right;
+    margin-top: -140px;
+}
+
+#footer {
+    background-color: darksalmon;
+    width: 1200px;
+    height: 40px;
+    margin: 500px 500px 20px 0px
+}
+
+.container1 p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container {
+    background-color: antiquewhite;
+    width: 1200px;
+    margin-left: 90px;
+}
+
+
+/*---------------End of Home--------------------*/
+
+.walker {
+    float: left;
+    margin: 10px
+}
+
+.alan1 {
+    text-align: justify;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.alanmusic audio {
+    width: 500px;
+}
+
+#footer2 {
+    background-color: darksalmon;
+    width: 1200px;
+    height: 40px;
+    margin: 20px 500px 20px 0px
+}
+
+.container2 p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/*------------------End of Alan Walker----------*/
+
+.sevenfold img {
+    width: 600px;
+    height: 600px;
+    float: left;
+    margin: 10px;
+}
+
+.avanged1 p {
+    text-align: justify;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.avangedmusic audio {
+    width: 500px;
+}
+
+
+/*------------------End of Avanged----------*/
+
+.chains img {
+    width: 600px;
+    height: 600px;
+    float: left;
+    margin: 10px;
+}
+
+.chains1 p {
+    text-align: justify;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.chainsmusic audio {
+    width: 500px;
+}
+
+#footer3 {
+    background-color: darksalmon;
+    width: 1200px;
+    height: 40px;
+    margin: 20px 500px 10px 0px
+}
+
+
+/*------------------End of Chains----------*/
+
+.play img {
+    width: 600px;
+    height: 600px;
+    float: left;
+    margin: 10px;
+}
+
+.play1 p {
+    text-align: justify;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.playmusic audio {
+    width: 500px;
+}
+
+#footer4 {
+    background-color: darksalmon;
+    width: 1200px;
+    height: 40px;
+    margin: 20px 500px 20px 0px;
+}
+
+
+/*------------------End of Cold----------*/
+
+.se img {
+    width: 600px;
+    height: 600px;
+    float: left;
+    margin: 10px;
+}
+
+.se1 p {
+    text-align: justify;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.semusic audio {
+    width: 500px;
+}
+
+
+/*-----------------End of muse-------------*/
+
+.othermusic img {
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.othermusic h1 {
+    margin-left: 10px;
+}
+
+.othermusic p1 {
+    margin: 55px;
+    font-size: 20px
+}
+
+.othermusic p2 {
+    margin: 35px;
+    font-size: 20px
+}
+
+.othermusic p3 {
+    margin: 51px;
+    font-size: 20px
+}
+
+.othermusic p4 {
+    margin: 95px;
+    font-size: 20px
+}
+
+.othermusic p5 {
+    margin: 155px;
+    font-size: 20px
+}
+
+
+/*-----------------End of others music-------------*/
+
+.othermusic1 img {
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.othermusic1 h1 {
+    margin-left: 10px;
+}
+
+.othermusic1 p1 {
+    margin: 55px;
+    font-size: 20px
+}
+
+.othermusic1 p2 {
+    margin: 35px;
+    font-size: 20px
+}
+
+.othermusic1 p3 {
+    margin: 15px;
+    font-size: 20px
+}
+
+.othermusic1 p4 {
+    margin: 80px;
+    font-size: 20px
+}
+
+.othermusic1 p5 {
+    margin: 90px;
+    font-size: 20px
+}
+
+
+/*-----------------End of others music1 muse-------------*/
+
+.othermusic2 img {
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.othermusic2 h1 {
+    margin-left: 10px;
+}
+
+.othermusic2 p1 {
+    margin: 55px;
+    font-size: 20px
+}
+
+.othermusic2 p2 {
+    margin: 35px;
+    font-size: 20px
+}
+
+.othermusic2 p3 {
+    margin: 15px;
+    font-size: 20px
+}
+
+.othermusic2 p4 {
+    margin: 55px;
+    font-size: 20px
+}
+
+.othermusic2 p5 {
+    margin: 95px;
+    font-size: 20px
+}
+
+
+/*-----------------End of others music2 chains-------------*/
+
+.othermusic3 img {
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.othermusic3 h1 {
+    margin-left: 10px;
+}
+
+.othermusic3 p1 {
+    margin: 55px;
+    font-size: 20px
+}
+
+.othermusic3 p2 {
+    margin: 35px;
+    font-size: 20px
+}
+
+.othermusic3 p3 {
+    margin: 33px;
+    font-size: 20px
+}
+
+.othermusic3 p4 {
+    margin: 59px;
+    font-size: 20px
+}
+
+.othermusic3 p5 {
+    margin: 98px;
+    font-size: 20px
+}
+
+
+/*-----------------End of others music3 avanged-------------*/
+
+.othermusic4 img {
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.othermusic4 h1 {
+    margin-left: 10px;
+}
+
+.othermusic4 p1 {
+    margin: 55px;
+    font-size: 20px
+}
+
+.othermusic4 p2 {
+    margin: 35px;
+    font-size: 20px
+}
+
+.othermusic4 p3 {
+    margin: 17px;
+    font-size: 20px
+}
+
+.othermusic4 p4 {
+    margin: 74px;
+    font-size: 20px
+}
+
+.othermusic4 p5 {
+    margin: 85px;
+    font-size: 20px
+}
+
+
+/*-----------------End of others music4 avanged-------------*/
+
+.container3 {
+    background-color: antiquewhite;
+    width: 1200px;
+    margin-left: 90px;
+    padding-top: 10px
+}
+
+.container3 table {
+    margin-left: 25px;
+}
+
+.container3 h1 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.container3 p1 {
+    text-align: center;
+}
+
+
+/*--------------End of Product page---------*/
+
+#ga {
+    padding-top: 20px;
+}
+
+.gal {
+    margin-left: 0px;
+}
+
+.pic img {
+    width: 200px;
+    height: 150px;
+    filter: sepia(50%);
+}
+
+#gam {
+    margin-left: 90px;
+}
+
+.pic img:hover {
+    filter: sepia(0%);
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+#footer1 {
+    background-color: darksalmon;
+    width: 1200px;
+    height: 40px;
+    margin-top: -54px;
+    margin-left: 90px;
+}
+
+
+/*--------------End of Product Gallery---------*/
+
+.containercon {
+    background-color: antiquewhite;
+    width: 1200px;
+    margin-left: 90px;
+}
+
+#phone {
+    width: 600px;
+}
+
+#gam {
+    padding-bottom: 20px;
+}
+
+#nama,
+#email,
+#call {
+    width: 300px;
+    height: 25px;
+    font-size: 13px;
+}
+
+#alamat {
+    width: 300px;
+    height: 150px;
+    font-size: 20px;
+}
+
+#submit {
+    width: 80px;
+    font-size: 20px;
+    margin-left: -225px;
+    /* margin-bottom: 40px; */
+    margin-top: 10px;
+}
+
+#fill {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#footercon {
+    background-color: darksalmon;
+    width: 1200px;
+    height: 40px;
+    margin-top: 40px;
+}
